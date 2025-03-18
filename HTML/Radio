@@ -1,0 +1,51 @@
+<Doctype! html>
+
+<html>
+ <head>    
+
+ <title> FORMS ASSIGNMENT </title>
+ </head>
+ <br>
+
+ <h1 style="text-align:center;"> Hi!</h1>
+ <h2 style="text-align:center;"> Here is a list of materials you need to bring  </h2>
+
+ <body>
+<h4>
+Unordered list
+<ul>
+        <li>Paint brush - Set of 6</li>
+        <li>Watercolours - ( for artist)</li>
+        <li>Water Container</li>
+</ul>
+</h4>
+
+<h4>
+     Ordered list   
+     <ol>
+        <li>Come on time</li>
+        <li>follow the decorum </li>
+        
+     </ol>
+</h4>
+
+<h4>
+     Description list  </h4>
+
+
+<dl>
+<dt>Watercolours </dt>
+<dd> Bring set of 12</dd>
+
+<dt> Brush </dt>
+<dd> Bring set of 6</dd>
+
+<dt>Extra</dt>
+<dd> Bring extra material as per your requirement</dd>
+</dl>
+
+
+<h3>See you there!</h3>
+
+
+ </body>

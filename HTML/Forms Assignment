@@ -1,0 +1,239 @@
+<Doctype! html>
+
+<html>
+ <head>    
+
+ <title> FORMS ASSIGNMENT </title>
+ <style>
+        
+       table,td,th{border: 1px solid black;
+       background-color:aliceblue;
+padding: 15px;
+margin: 15px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Open Sans';
+}
+      
+  p {        color: blue;
+       margin: 20px;}
+
+
+ aside{width:30%; 
+       padding-left: 15px;
+       padding-right: 15px;
+       margin-left: 15px; 
+       margin-right: 15px;
+       float: right;
+       font-style: italic;
+background-color:aquamarine;}
+
+.materials{background-color:blueviolet;
+color:aliceblue;
+border:2px solid black;
+margin:20px;
+padding:20px;
+max-width: 200px;
+border-radius: 15px;}
+
+
+ </style>
+ </head>
+
+ <form action="Radio" Method=" Get">
+       
+
+ <h1 style="text-align:center;"> Welcome!</h1>
+ <h2 style="text-align:center;"> Fill this form to join the community </h2>
+ <div>
+       <p style= "text-align: center; ">
+       <img src="paint.jpg" alt="art workshop" width="450" height="360"  >  
+</p>
+ </div>
+
+ <body style="background-color:rgba(219, 211, 255, 0.722);">
+
+
+
+    <div>
+       
+        <label for="fname"> First name: </label>
+        <input type= "text"  id= "fname" name="fname" placeholder="Harry" required >
+
+        </div>
+<br>
+
+        <div>
+        <label for="lname"> Last name: </label>
+        <input type= "text"  id= "lname" name="lname" placeholder="Potter" required>
+        </div>
+
+ <br>
+
+        <div>
+        <label for="Password"> Password: </label>
+        <input type= "password"  id= "pass" name="pass" maxlength="12" required>
+        </div>
+
+ <br>
+
+        <div>
+        <label for="email"> Email: </label>
+        <input type= "email"  id= "email" name="email" placeholder="harrypotter@gmail.com" required>
+        </div>
+ <br>
+
+        <div>
+        <label for="phone"> Phone No.: </label>
+        <input type= "phone"  id= "phone" name="phone" placeholder="+91" required>
+        </div>
+
+ <br>
+
+        <div>
+        <label for="bdate"> Birthdate : </label>
+        <input type= "date"  id= "date" name="date"  required>
+        </div>
+
+ <br>
+
+        <div>
+        <label for="quantity"> No.of workshops : </label>
+        <input type= "number"  id= "quantity" name="quantity" min=" 0" max="99" value="1" required>
+        </div>
+
+<br>
+<div>
+    <label> Title: </label>
+    <br>
+        <label for="Mr."> Mr. </label>
+        <Input type= "radio"id="Mr." name= "title=" value="Mr.">
+        
+<br>
+        <label for="Mrs."> Mrs. </label>
+        <Input type= "radio" id="Mrs." name= "title=" value="Mrs."> 
+ 
+<br>
+        <label for="PhD"> PhD. </label>
+        <Input type= "radio" id="PhD"name= "title=" value="PhD."> 
+
+</div>
+  <br>
+
+  <label for="payment"> payment </label>
+  <select id="payment" name="payment">
+    <option vale="Visa">Visa</option>
+    <option value="Mastercard">Mastercard</option>
+    <option value="Giftcard">Giftcard</option>
+
+  </select>
+
+  <br>
+  <br>
+  <div>
+   <details>
+       <summary>Terms and conditions</summary>
+       <div> 1. you must attend all the workshops</div>
+       <div> 2. You must pay all the fees in the first week </div>
+   </details>
+  <label for="terms"> <mark>Agree with the terms and conditions* </mark></label>
+  <Input type= "checkbox" id="terms"name= "terms" > 
+
+  </div>
+<br>
+
+<div>
+    <input type="reset">
+</div>
+
+ <br> 
+<div>
+    <input type="submit" >
+</div>
+
+<br> 
+
+
+
+    </form>
+
+
+ </body>
+
+
+ <h2 style="text-align:center;"> Hi!</h2>
+ <h2 style="text-align:center;"> Here is a list of materials you need to bring  </h2>
+<p>Welcome students!
+       Here you will find the list of materials you need to bring while coming for the workshop, make sure you read it and follow the instructions given below:D
+</p>
+ <body>
+<h4>
+Unordered list
+<ul>
+        <li>Paint brush - Set of 6</li>
+        <li>Watercolours - ( for artist)</li>
+        <li>Water Container</li>
+</ul>
+</h4>
+
+<h4>
+     Ordered list   
+     <ol>
+        <li>Come on time</li>
+        <li>follow the decorum </li>
+        
+     </ol>
+</h4>
+
+<h4>
+     Description list  </h4>
+
+
+<dl>
+<dt>Watercolours </dt>
+<dd> Bring set of 12</dd>
+
+<dt> Brush </dt>
+<dd> Bring set of 6</dd>
+
+<dt>Extra</dt>
+<dd> Bring extra material as per your requirement</dd>
+</dl>
+
+<table>
+       <tr-align="center">
+           <th> Name of material </th>
+           <th> quantity</th>
+           <th> set of </th> 
+       </tr>
+       
+       <tr>
+       <td>Oli paint</td>
+       <td>2 packs</td>
+       <td>12</td>
+       </tr>
+       
+       <tr>
+           <td>Acrylic paint</td>
+           <td>1 pack</td>
+           <td>24</td>
+       </tr>
+       
+       <tr>
+           <td>Watercolor paint</td>
+           <td>1 pack</td>
+           <td>36</td>
+       </tr>
+       
+        </table>
+<div class="materials">
+     <h2 style="text-align:center">Art materials: </h2>  
+<p style="color:azure ">bring your own materials</p>
+</div>
+
+<aside>
+       <h2 style="text-align: center;">See you there!</h2>
+ </aside>
+
+
+<br>
+
+ </html>
